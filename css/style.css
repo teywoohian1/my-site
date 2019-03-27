@@ -1,0 +1,39 @@
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+body{
+	background: rgba(200,200,200,0.5);
+	color: rgb(0,0,0);
+	font-size: 14px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn-blue{
+	background-color: rgba(255,255,255);
+	padding: 15px 20px;
+	border-radius:4px;
+	font-color: solid gray;
+}
+
+#title h1{
+	text-align:center;
+	margin-top: 60px;
+	font-weight: lighter;
+	font-size:50px;
+}
+
+a {
+color: black;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+transition: color 0.2s ease;
+}
+
+a:hover {
+color: rgb(240,240,240);
+text-decoration: none;
+}
+
